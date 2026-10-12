@@ -7,11 +7,9 @@ Aplicativo web instalável para acompanhar o plano de retorno à musculação, c
 Para testar localmente, rode um servidor estático na pasta do projeto (não abra apenas o arquivo `index.html`, porque service workers precisam de localhost ou HTTPS).
 
 Com Python instalado:
-
 ```bash
 python -m http.server 8080
 ```
-
 Acesse `http://localhost:8080`.
 
 ## Como instalar no Android
