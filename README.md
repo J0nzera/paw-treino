@@ -1,14 +1,32 @@
-Minha principal contribuição neste ciclo tem sido o Giro Hub SRE, uma plataforma independente do canal principal do banco, que trouxe desafios técnicos e arquiteturais diferentes dos encontrados nas aplicações tradicionais do ecossistema.
+Giro Hub SRE — entrega e impacto no negócio
 
-Nesse projeto, participo de uma iniciativa pioneira no banco: a utilização da nova arquitetura corporativa, incluindo Caronte, em uma plataforma totalmente apartada do canal principal. Esse contexto exigiu não apenas o desenvolvimento do front-end, mas também o entendimento e a configuração de diferentes componentes necessários para viabilizar a solução, como gateway, mecanismos de autenticação, utilização de tokens do Azure e integrações com os demais serviços.
+Minha principal entrega neste ciclo foi o Giro Hub SRE, uma plataforma independente do canal principal do banco, que já foi entregue, está em produção e é utilizada ativamente pelo time de negócios para gerenciar os clientes autorizados a acessar o produto. Além da entrega da solução, estamos avançando em melhorias para tornar a plataforma cada vez mais prática e eficiente para seus usuários.
 
-Essa experiência exigiu investigação técnica, aprendizado contínuo e resolução de desafios para os quais ainda não havia uma referência interna consolidada nesse contexto. Além de contribuir para a construção da plataforma, esse trabalho ampliou meu conhecimento sobre arquitetura, segurança e integração entre sistemas.
+O projeto representou um marco técnico por sermos pioneiros no banco na utilização da nova arquitetura corporativa, incluindo Caronte, em uma plataforma totalmente independente do canal principal. Minha principal atuação esteve no desenvolvimento do front-end e na integração com Caronte, participando também ativamente das discussões técnicas necessárias para viabilizar a comunicação entre os diferentes componentes da solução.
 
-Outra frente importante tem sido a reestruturação completa do front-end do Giro FGI, com o objetivo de construir uma aplicação com código mais simples, organizado, escalável e de fácil manutenção. A iniciativa envolve a adoção de tecnologias e práticas mais modernas, buscando melhorar a qualidade da arquitetura e facilitar a evolução futura da aplicação.
+Ao longo do desenvolvimento, enfrentamos desafios de integração e configuração que exigiram investigação, testes e alinhamentos frequentes com outros desenvolvedores, especialmente para solucionar problemas relacionados à comunicação entre as aplicações e o gateway. Essa colaboração foi importante para identificar obstáculos, testar alternativas e avançar até que a solução funcionasse corretamente nesse contexto arquitetural.
 
-Paralelamente, estou estruturando uma base de SDD (Spec-Driven Development) para utilização de inteligência artificial no desenvolvimento dos projetos front-end da squad. A proposta é estabelecer diretrizes e padrões reutilizáveis entre os diferentes repositórios, orientando a IA na utilização das mesmas tecnologias, arquiteturas, estruturas de projeto e convenções de implementação. Com isso, busco reduzir divergências entre as aplicações, promover maior consistência técnica e facilitar a manutenção e a evolução dos projetos, além de tornar o uso da IA mais padronizado e eficiente no contexto da squad.
+Como resultado, contribuí para a entrega de uma plataforma que atende a uma necessidade real do negócio e já está incorporada à operação em produção, além de participar de uma iniciativa pioneira que ampliou a aplicação da arquitetura corporativa do banco para além do seu canal principal.
 
-De forma geral, tenho buscado contribuir não apenas com a implementação de funcionalidades, mas também com a evolução arquitetural, a padronização das soluções e a melhoria dos processos de desenvolvimento. Considero que essas iniciativas refletem minha busca por autonomia, aprendizado contínuo e soluções que gerem benefícios não apenas para um projeto específico, mas também para a produtividade e a qualidade técnica do time.
+Giro FGI — modernização e qualidade técnica
+
+Outra frente importante foi a reconstrução completa do front-end do Giro FGI, cujo desenvolvimento já foi concluído. A iniciativa teve como objetivo simplificar a estrutura da aplicação, melhorar a separação de responsabilidades e estabelecer uma base mais escalável e de fácil manutenção, utilizando Angular 17, Standalone Components, Signals, Lazy Loading e IDS2.
+
+Durante o desenvolvimento, também foi possível reduzir o tempo de reload do ambiente local de aproximadamente três minutos para praticamente instantâneo, trazendo um ganho prático para o fluxo de desenvolvimento.
+
+Neste momento, o front-end está implementado, e a próxima etapa é a realização dos testes integrados com o BFF, cuja modernização ainda está em andamento. Dessa forma, a reconstrução do front-end está concluída, enquanto a validação integrada da solução permanece como próxima etapa.
+
+Base de SDD com IA — padronização entre projetos
+
+Paralelamente, iniciei a estruturação de uma base de SDD (Spec-Driven Development) para orientar o uso de inteligência artificial nos projetos front-end da squad, com o objetivo de promover consistência técnica e reduzir divergências de arquitetura, estrutura e implementação entre os repositórios.
+
+Já defini uma organização inicial para essa base, incluindo o arquivo "AGENTS.md" na raiz do projeto, que reúne as orientações gerais para a IA, e a estrutura ".agents", dividida em duas partes: "base", com diretrizes reutilizáveis sobre arquitetura, tecnologias, estruturação, princípios SOLID e design patterns; e "projeto", destinada ao contexto específico de cada aplicação, incluindo regras de negócio, telas e particularidades técnicas.
+
+Essa separação permite combinar padrões comuns de desenvolvimento com as necessidades específicas de cada projeto, estabelecendo uma referência que pode ser reutilizada pela squad. A iniciativa busca tornar o uso da IA mais consistente, facilitar a manutenção dos projetos e reduzir diferenças desnecessárias entre as implementações.
+
+Contribuição geral
+
+Ao longo do ciclo, procurei atuar com protagonismo e autonomia, identificando oportunidades de melhoria, propondo iniciativas e conduzindo soluções que vão além da execução de demandas pontuais. Busquei contribuir tanto para resultados concretos no negócio, como a entrega do Giro Hub SRE em produção, quanto para a evolução da qualidade técnica, da produtividade e da padronização dos projetos front-end da squad.
 
 -----
 
