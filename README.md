@@ -1,9 +1,9 @@
-O Gui é uma das minhas principais referências técnicas em front-end dentro do ecossistema Giro. Mesmo atuando em squads diferentes, mantemos uma troca constante de conhecimentos e experiências, buscando evoluir nossas aplicações e compartilhar soluções para desafios semelhantes.
+O Rafa se destaca pelo conhecimento técnico e pela experiência em back-end, demonstrando bastante domínio das tecnologias e do produto. Mesmo não atuando diretamente com ele nas demandas do dia a dia, é possível perceber sua capacidade técnica nas discussões e nos alinhamentos do time, o que também se reflete em sua atuação como Tech Lead.
 
-Ele se destaca pelo amplo conhecimento técnico, pela curiosidade e pela busca constante por novas tecnologias e abordagens. Está sempre explorando possibilidades, especialmente relacionadas ao uso de IA no desenvolvimento, trazendo novas skills, experimentações com agentes e sugestões que podem contribuir para melhorar nossos processos e aplicações.
+Além da parte técnica, é uma pessoa muito acessível, receptiva e tranquila de lidar, sempre aberta a trocar ideias e discutir soluções. Também se destaca por trazer sugestões de melhoria que vão além das demandas individuais, buscando simplificar processos, resolver problemas e facilitar o dia a dia de toda a squad.
 
-Outro ponto que considero muito forte é sua disposição para compartilhar o que aprende e trocar ideias sobre soluções e boas práticas de front-end. Essa troca entre as squads contribui para nossa evolução técnica e demonstra que sua atuação vai além das demandas do próprio projeto, gerando valor também para outros desenvolvedores e iniciativas do ecossistema Giro.
+Considero que a combinação entre conhecimento técnico, postura colaborativa e iniciativa para propor melhorias é um diferencial importante na atuação do Rafa e contribui positivamente para a evolução técnica e o funcionamento do time.
 
---'
+---
 
-Até o momento, não consegui identificar pontos de desenvolvimento específicos para destacar. Considero o Gui uma referência técnica em front-end e, embora tenhamos bastante troca de conhecimento, não identifiquei oportunidades claras de melhoria que possa apontar com propriedade neste momento.
+Acredito que aprofundar o conhecimento sobre o funcionamento e as particularidades do BFF seria uma oportunidade interessante de desenvolvimento para o Rafa. Apesar das semelhanças com o back-end tradicional, o BFF possui responsabilidades e configurações específicas relacionadas à integração e à renderização do front-end. Esse conhecimento pode ampliar ainda mais sua visão técnica e contribuir para sua atuação como Tech Lead.
