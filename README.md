@@ -30,13 +30,15 @@ Ao longo do ciclo, procurei atuar com protagonismo e autonomia, identificando op
 
 -----
 
-Considero como principais pontos fortes o protagonismo, a autonomia, a iniciativa para identificar oportunidades de melhoria e a busca contínua por evolução técnica.
+Considero como principais pontos fortes o protagonismo, a autonomia, a iniciativa para identificar oportunidades de melhoria e a capacidade de transformar problemas em ações concretas.
 
-Procuro ter uma postura ativa diante das necessidades dos projetos e do time, sem depender exclusivamente de demandas direcionadas. Busco identificar problemas, oportunidades de melhoria e iniciativas que possam gerar valor, levando essas propostas à liderança e assumindo a responsabilidade por impulsioná-las. Dessa forma, procuro contribuir não apenas com a execução das atividades, mas também com a identificação do que pode ser melhorado e com a busca por soluções.
+Procuro ter uma postura ativa diante das necessidades dos projetos e do time, sem depender exclusivamente de demandas direcionadas. Busco identificar oportunidades, propor melhorias à liderança e assumir a iniciativa de conduzi-las. Essa postura me permite contribuir não apenas com a execução das atividades, mas também com a identificação de soluções e melhorias que podem gerar valor para o negócio e para a squad.
 
-Essa postura se reflete na atuação no Giro Hub SRE, que envolve desafios arquiteturais e técnicos ainda não explorados nesse contexto dentro do banco, exigindo investigação, aprendizado contínuo e autonomia na busca por soluções. Também está presente na reestruturação do front-end do Giro FGI e na iniciativa de estabelecer uma base de SDD reutilizável para os projetos front-end da squad, buscando maior padronização, consistência técnica e facilidade de manutenção entre os repositórios.
+No Giro Hub SRE, essa atuação se refletiu na participação ativa na resolução de desafios técnicos e de integração, trabalhando em conjunto com outros desenvolvedores para investigar problemas, testar alternativas e viabilizar uma plataforma que hoje está em produção e é utilizada pelo time de negócios. Essa experiência reforçou a importância de combinar autonomia na investigação com colaboração para superar desafios que envolvem diferentes componentes e responsabilidades.
 
-Outro ponto forte é a preocupação em gerar benefícios que vão além de uma entrega pontual. Procuro avaliar como as melhorias podem contribuir para a produtividade, a qualidade técnica e a sustentabilidade das aplicações, transformando oportunidades identificadas em iniciativas concretas que possam beneficiar o time a longo prazo.
+Outro ponto forte é a preocupação em melhorar não apenas o resultado imediato, mas também a qualidade e a sustentabilidade do desenvolvimento. Na reestruturação do front-end do Giro FGI, essa preocupação se traduziu na construção de uma aplicação com uma estrutura mais organizada e em uma redução significativa do tempo de reload do ambiente local. Já na iniciativa de SDD, estou estruturando diretrizes e documentações reutilizáveis para orientar o uso de IA e promover maior consistência de arquitetura, tecnologias e práticas entre os projetos front-end da squad.
+
+Também valorizo o aprendizado contínuo e a disposição para explorar novas tecnologias e abordagens, buscando transformar esse conhecimento em melhorias práticas. Pretendo manter essa postura proativa, continuar identificando oportunidades sem esperar que se tornem demandas formais e ampliar minha contribuição para a qualidade técnica, a produtividade e o compartilhamento de conhecimento no time.
 
 ----
 
