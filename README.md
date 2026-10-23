@@ -49,3 +49,13 @@ Em algumas situações, percebo que entro em muitos detalhes ao explicar um prob
 Acredito que essa evolução pode ampliar meu impacto no time, principalmente ao apresentar propostas de melhoria, discutir decisões arquiteturais, compartilhar conhecimento e alinhar soluções com a liderança e outros profissionais. Meu objetivo é conseguir comunicar não apenas os aspectos técnicos de uma solução, mas também o problema que ela resolve, os benefícios esperados e os motivos por trás das decisões tomadas.
 
 Quero continuar desenvolvendo essa habilidade para tornar minhas contribuições mais efetivas, facilitar o alinhamento entre as pessoas e fazer com que as ideias e melhorias que identifico sejam compreendidas e aproveitadas da melhor forma possível.
+
+----
+
+Um dos principais pontos que busco desenvolver é a comunicação, especialmente a capacidade de transmitir ideias e explicar assuntos técnicos de forma mais clara, objetiva e estruturada.
+
+Tenho facilidade em aprofundar questões técnicas e investigar diferentes aspectos de uma solução, mas reconheço que preciso evoluir na forma de organizar e transmitir essas informações, evitando entrar em detalhes antes de apresentar a mensagem principal. Quero aprimorar minha capacidade de sintetizar ideias, destacar o que é mais relevante e adaptar a profundidade da explicação de acordo com o público e o contexto, seja em discussões técnicas com desenvolvedores, alinhamentos com a liderança ou conversas com áreas de negócio.
+
+Para evoluir nesse aspecto, pretendo estruturar melhor minhas explicações, começando pelo problema, apresentando a solução proposta e destacando seus benefícios e as razões por trás das decisões. Também quero desenvolver uma escuta mais ativa, validar se a mensagem foi compreendida e buscar feedbacks que me ajudem a identificar oportunidades de melhoria.
+
+Acredito que essa evolução pode potencializar competências que já fazem parte da minha atuação, como autonomia, iniciativa para propor melhorias e participação em decisões técnicas. Meu objetivo é tornar minhas contribuições mais efetivas, facilitando o alinhamento entre as pessoas e permitindo que as ideias e soluções que proponho sejam compreendidas com mais clareza e objetividade.
