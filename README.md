@@ -1,47 +1,13 @@
-# Meu Treino — PWA
+Acredito que o principal ponto de desenvolvimento seja continuar aprimorando a leitura e a compreensão do código, pois considero essa habilidade fundamental para sua evolução técnica e para o aprofundamento do conhecimento sobre o negócio e o produto.
 
-Aplicativo web instalável para acompanhar o plano de retorno à musculação, checklist de séries, cargas/repetições, cronômetro, histórico e medidas. A interface está em português e os registros são guardados no `localStorage` do navegador deste aparelho.
+Conseguir navegar pelo código, entender o fluxo de execução, identificar as responsabilidades de cada componente e compreender como as chamadas e regras de negócio se relacionam facilita não apenas a manutenção e a implementação de funcionalidades, mas também o aprendizado contínuo e o desenvolvimento da autonomia para resolver problemas. Embora o projeto atual apresente desafios relacionados à organização e à estrutura do código, desenvolver essa habilidade será importante tanto para lidar melhor com a aplicação existente quanto para trabalhar com mais segurança em projetos futuros.
 
-## Como usar agora no computador
+Para evoluir nesse aspecto, recomendo explorar mais o ambiente local, testar diferentes cenários, manipular valores e respostas das chamadas e utilizar ferramentas como o console do navegador e os logs para acompanhar a execução do código e investigar comportamentos. Essa prática ajuda a entender melhor o funcionamento da aplicação, validar hipóteses e identificar bugs mais simples ainda durante o desenvolvimento, antes de encaminhar as demandas para QA.
 
-Para testar localmente, rode um servidor estático na pasta do projeto (não abra apenas o arquivo `index.html`, porque service workers precisam de localhost ou HTTPS).
+O aprofundamento técnico em Angular, TypeScript e nos conceitos de Clean Code também pode contribuir diretamente para essa evolução, tornando mais fácil interpretar, escrever e manter código de qualidade.
 
-Com Python instalado:
-```bash
-python -m http.server 8080
-```
-Acesse `http://localhost:8080`.
+Outro ponto importante é continuar evoluindo no conhecimento do negócio e do produto. Percebo avanços nesse aspecto desde a avaliação anterior, e a intenção é justamente manter essa evolução, buscando compreender cada vez melhor as regras, os fluxos e as condições que determinam o comportamento das funcionalidades.
 
-## Como instalar no Android
+Também considero importante desenvolver uma postura mais crítica na análise das demandas antes de iniciar a implementação. Nem toda solicitação precisa necessariamente ser resolvida no front-end, por isso é importante compreender o problema que se deseja solucionar, avaliar se a abordagem proposta faz sentido e questionar quando houver dúvidas sobre a necessidade ou a responsabilidade da implementação. Buscar esse entendimento junto ao time antes de começar a desenvolver ajuda a evitar soluções desnecessárias, retrabalho e complexidade adicional na aplicação, contribuindo para decisões técnicas mais conscientes e alinhadas às necessidades reais do produto.
 
-Uma PWA precisa ser publicada em um endereço HTTPS para instalar e funcionar offline de forma confiável no Android.
-
-1. Publique o conteúdo desta pasta em um serviço de hospedagem estática com HTTPS (por exemplo, GitHub Pages, Netlify ou Cloudflare Pages).
-2. Abra a URL publicada no Chrome do Android.
-3. Toque em **Instalar** se o botão aparecer, ou abra o menu do Chrome e escolha **Instalar app** / **Adicionar à tela inicial**.
-4. Abra o app pelo ícone. Os dados ficam no armazenamento local desse navegador/aparelho.
-
-## Funcionalidades
-
-- Navegação entre semanas 1–52.
-- Fase de readaptação (semanas 1–2), consolidação (3–4) e progressão (5+).
-- Quatro treinos principais por semana; sábado opcional a partir da semana 3.
-- Registro de carga e repetições por série.
-- Checklist de séries e conclusão do treino.
-- Cronômetro de descanso com predefinições.
-- Histórico de treinos, peso e cintura.
-- Exportação de backup JSON.
-- Cache offline via service worker.
-
-## Limitações e segurança
-
-- Os dados ficam no navegador local. Limpar os dados do navegador pode apagar o histórico. Exporte backups regularmente.
-- O cronômetro simples não garante contagem precisa se o navegador ficar suspenso em segundo plano.
-- O app não sincroniza entre dispositivos e não substitui avaliação médica ou acompanhamento de profissional de educação física.
-- O plano usa adaptações conservadoras devido ao relato de desconforto no joelho e na lombar. Não é diagnóstico. Suspenda movimentos que agravem sintomas e procure avaliação profissional antes de progredir para cargas altas, sobretudo se os sintomas persistirem.
-- Sintomas neurológicos progressivos, alterações de controle da bexiga/intestino, dormência na região genital ou dor intensa exigem atendimento médico urgente.
-- O uso de minoxidil oral deve ser acompanhado pelo profissional que o prescreveu; procure atendimento se tiver dor no peito, desmaio, falta de ar incomum, palpitações persistentes ou inchaço importante.
-
-## Personalização futura
-
-O projeto é vanilla HTML/CSS/JS, sem dependências. Edite `app.js` para mudar exercícios, séries, repetições e descrições.
+Por fim, com a crescente utilização de IA no desenvolvimento, é importante fortalecer continuamente a capacidade de analisar e revisar criticamente o código gerado. Mesmo quando a implementação é feita com o auxílio de IA, compreender o que foi produzido é fundamental para identificar problemas, validar as regras de negócio e garantir a qualidade e a sustentabilidade da solução.
