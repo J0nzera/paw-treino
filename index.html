@@ -1,172 +1,47 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
-    <meta name="theme-color" content="#111827" />
-    <meta
-      name="description"
-      content="Seu plano de treino, progressão e histórico salvos no próprio aparelho."
-    />
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="icon" href="icons/icon-192.png" />
-    <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Meu Treino</title>
-  </head>
-  <body>
-    <header class="topbar">
-      <div class="brand-mark">Jon</div>
-      <div class="brand-copy">
-        <strong>Meu Treino</strong><span>RECOMPOSIÇÃO CORPORAL</span>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Seu treino semanal de musculação, com foco em ombros e braços.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Meu Treino</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-mark">MT</div>
+    <div class="brand-copy"><strong>Meu Treino</strong><span>RECOMPOSIÇÃO CORPORAL</span></div>
+    <button id="installBtn" class="install-btn hidden" type="button">Instalar</button>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <div><p class="eyebrow">SEU TREINO ATUAL</p><h1>Foco em<br><span>ombros e braços.</span></h1><p class="muted">Selecione o dia e registre cargas e repetições.</p></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head"><div><p class="eyebrow">AGENDA SEMANAL</p><h2>Seu cronograma</h2></div><span class="muted small">toque para abrir</span></div>
+      <div id="dayGrid" class="day-grid"></div>
+    </section>
+
+    <section id="workoutPanel" class="panel workout-panel">
+      <div class="section-head">
+        <div><p class="eyebrow" id="workoutEyebrow">TREINO DO DIA</p><h2 id="workoutTitle">Escolha um treino</h2></div>
+        <span id="workoutDuration" class="pill">60–80 min</span>
       </div>
-      <button id="installBtn" class="install-btn hidden" type="button">
-        Instalar
-      </button>
-    </header>
+      <p id="workoutNote" class="muted small"></p>
+      <div id="safetyNote" class="notice"><strong>Treine com técnica</strong><p>Não force movimentos que piorem dores no joelho ou na lombar. Se houver dor crescente, pare o exercício e procure avaliação profissional.</p></div>
+      <div id="exerciseList"></div>
+      <div id="completeArea" class="complete-area hidden"><button id="completeWorkout" class="secondary-btn" type="button">Zerar marcações deste treino</button></div>
+    </section>
 
-    <main>
-      <section class="welcome">
-        <div>
-          <h1>Treine com<br /><span>consistência.</span></h1>
-          <p class="muted">
-            Acompanhe sessões, cargas e evolução sem complicação.
-          </p>
-        </div>
-        <div class="hero-stat">
-          <strong id="streakValue">0</strong
-          ><span>treinos<br />concluídos</span>
-        </div>
-      </section>
-
-      <section class="phase-panel panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">PLANO DE RETORNO</p>
-            <h2>Qual semana?</h2>
-          </div>
-          <span class="pill" id="phasePill">Readaptação</span>
-        </div>
-        <div class="week-picker">
-          <button id="prevWeek" class="round-btn" aria-label="Semana anterior">
-            ‹
-          </button>
-          <div class="week-label">
-            <strong id="weekLabel">Semana 1</strong
-            ><span id="weekSubtitle">Volta gradual</span>
-          </div>
-          <button id="nextWeek" class="round-btn" aria-label="Próxima semana">
-            ›
-          </button>
-        </div>
-        <div class="phase-track"><div id="phaseProgress"></div></div>
-        <p id="phaseDescription" class="small muted"></p>
-      </section>
-
-      <section class="panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">AGENDA</p>
-            <h2>Seu cronograma</h2>
-          </div>
-          <span class="muted small">toque para abrir</span>
-        </div>
-        <div id="dayGrid" class="day-grid"></div>
-      </section>
-
-      <section id="workoutPanel" class="panel workout-panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow" id="workoutEyebrow">TREINO DO DIA</p>
-            <h2 id="workoutTitle">Escolha um treino</h2>
-          </div>
-          <span id="workoutDuration" class="pill">60–80 min</span>
-        </div>
-        <p id="workoutNote" class="muted small"></p>
-        <div id="exerciseList"></div>
-        <div id="completeArea" class="complete-area hidden">
-          <button id="completeWorkout" class="primary-btn" type="button">
-            Concluir treino
-          </button>
-        </div>
-      </section>
-
-      <section class="panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">RECUPERAÇÃO</p>
-            <h2>Descanso entre séries</h2>
-          </div>
-          <span class="pill">Cronômetro</span>
-        </div>
-        <div class="timer">
-          <div class="timer-display" id="timerDisplay">01:30</div>
-          <div class="timer-controls">
-            <button class="timer-preset" data-seconds="60">60 s</button>
-            <button class="timer-preset active" data-seconds="90">90 s</button>
-            <button class="timer-preset" data-seconds="120">120 s</button>
-            <button class="timer-preset" data-seconds="150">150 s</button>
-          </div>
-          <div class="timer-actions">
-            <button id="timerStart" class="primary-btn">Iniciar</button
-            ><button id="timerReset" class="secondary-btn">Zerar</button>
-          </div>
-          <p class="small muted">
-            O cronômetro funciona enquanto esta página estiver ativa. Se trocar
-            de app, confira o tempo ao voltar.
-          </p>
-        </div>
-      </section>
-
-      <section class="panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">CONSISTÊNCIA</p>
-            <h2>Histórico recente</h2>
-          </div>
-          <button id="exportBtn" class="text-btn">Exportar</button>
-        </div>
-        <div id="historyList" class="history-list"></div>
-        <button id="clearHistory" class="text-btn danger-text">
-          Apagar histórico deste aparelho
-        </button>
-      </section>
-
-      <section class="panel measures-panel">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">ACOMPANHAMENTO</p>
-            <h2>Medidas e peso</h2>
-          </div>
-        </div>
-        <form id="measureForm" class="measure-form">
-          <label
-            >Peso (kg)<input
-              id="weightInput"
-              type="number"
-              min="30"
-              max="300"
-              step="0.1"
-              placeholder="82,0"
-          /></label>
-          <label
-            >Cintura (cm)<input
-              id="waistInput"
-              type="number"
-              min="30"
-              max="250"
-              step="0.1"
-              placeholder="Opcional"
-          /></label>
-          <button class="primary-btn" type="submit">Salvar medida</button>
-        </form>
-        <div id="measureHistory" class="measure-history"></div>
-      </section>
-    </main>
-    <div id="toast" role="status" class="toast hidden"></div>
-    <script src="app.js"></script>
-  </body>
+    <footer><p>Cargas, repetições e séries marcadas ficam salvas neste navegador.</p><p>Se houver dor crescente, inchaço, travamento, falseio, fraqueza, dormência ou sintomas importantes, interrompa o exercício e procure avaliação profissional. Sintomas como perda do controle da bexiga/intestino ou dormência na região genital exigem atendimento urgente.</p></footer>
+  </main>
+  <div id="toast" role="status" class="toast hidden"></div>
+  <script src="app.js"></script>
+</body>
 </html>

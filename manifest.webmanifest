@@ -1,7 +1,7 @@
 {
   "name": "Meu Treino — Recomposição Corporal",
   "short_name": "Meu Treino",
-  "description": "Plano de treino, checklist, cargas, cronômetro e histórico local.",
+  "description": "Treino semanal com foco em peito, ombros e braços.",
   "lang": "pt-BR",
   "start_url": "./index.html",
   "scope": "./",
